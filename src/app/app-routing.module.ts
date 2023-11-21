@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import {DashboardComponent} from "./commponents/dashboard/dashboard.component";
 import {ProductsComponent} from "./commponents/products/products.component";
 import {StatistticsComponent} from "./commponents/statisttics/statisttics.component";
-import {CoupensComponent} from "./commponents/coupens/coupens.component";
 import {PagesComponent} from "./commponents/pages/pages.component";
 import {MediaComponent} from "./commponents/media/media.component";
 import {SettingsComponent} from "./commponents/settings/settings.component";
@@ -24,7 +23,6 @@ const routes: Routes = [
   {path: 'my-animals-table/:specie', component: MyAnimalsTableComponent},
   {path: 'products', component: ProductsComponent},
   {path: 'statistics', component: StatistticsComponent},
-  {path: 'coupens', component: CoupensComponent},
   {path: 'pages', component: PagesComponent},
   {path: 'media', component: MediaComponent},
   {path: 'settings', component: SettingsComponent},

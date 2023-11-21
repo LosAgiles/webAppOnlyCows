@@ -21,7 +21,7 @@ export const navbarData=[
     label:'Zootenists'
   },
   {
-    routeLink:'coupens',
+    routeLink:'task',
     icon:'fal fa-solid fa-envelope',
     label:'Tasks'
   },
