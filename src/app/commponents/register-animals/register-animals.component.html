@@ -1,0 +1,91 @@
+<body>
+<app-header></app-header>
+
+<div class="container">
+  <h2>NEW RUMINANT REGISTRATION</h2>
+
+  <form>
+    <div class="rows">
+      <section class="section basic">
+        <h3>Basic</h3>
+        <div class="inputs">
+          <div class="input-box">
+            <label>ID</label>
+            <input type="text" placeholder="#V017" required>
+          </div>
+          <div class="input-box">
+            <label>Specie</label>
+            <input type="text" placeholder="Vaca" required>
+          </div>
+          <div class="input-box">
+            <label>Name</label>
+            <input type="text" placeholder="Lola" required>
+          </div>
+          <div class="input-box">
+            <label>Breed</label>
+            <input type="text" placeholder="Holstein" required>
+          </div>
+          <div class="input-box">
+            <label>Birth</label>
+            <input type="date" placeholder="17/08/2023" required>
+          </div>
+          <div class="input-box">
+            <label>Locate</label>
+            <input type="text" placeholder="Farm 1" required>
+          </div>
+        </div>
+      </section>
+      <section class="section advanced">
+        <h3>Advanced</h3>
+        <div class="inputs">
+          <div class="input-box">
+            <label>Weight</label>
+            <input type="number" placeholder="...">
+          </div>
+          <div class="input-box">
+            <label>Height</label>
+            <input type="number" placeholder="...">
+          </div>
+          <div class="input-box">
+            <label>Reproductive History</label>
+            <input type="text" placeholder="...">
+          </div>
+          <div class="input-box">
+            <label>Immunization History</label>
+            <input type="text" placeholder="...">
+          </div>
+          <div class="input-box">
+            <label>Documents</label>
+            <input type="file" style="border: none; padding: 0" placeholder="..." >
+          </div>
+          <div class="input-box">
+            <label>Food Registry</label>
+            <input type="text" placeholder="...">
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+    <div class="input-radio-box">
+      <label>Gender</label>
+      <div class="radio-group">
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <span style="margin: auto"></span>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </div>
+    </div>
+
+    <div class="input-are">
+      <label>Observations</label>
+      <textarea></textarea>
+    </div>
+
+    <a mat-button>Add Ruminant</a>
+
+  </form>
+</div>
+
+</body>

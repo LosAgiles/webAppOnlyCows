@@ -1,0 +1,66 @@
+.body{
+  background: #F5EEDC;
+}
+.container{
+  width: 90%;
+  max-width: 1350px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.section{
+  margin: 20px
+}
+
+.img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 180px;
+  position: relative;
+}
+
+.add-button{
+  background: #DD763D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-top: auto;
+}
+.add-button:hover{
+  background: rgba(221, 118, 61, 0.78);
+}
+
+.items{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+.items button{
+  height: 50px;
+  width: 50px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.items button:hover{
+  transform: scale(1.03);
+}
+.cows .items button{
+  background: #C98D8D;
+}
+.sheeps .items button{
+  background: #CC9966;
+}
+.goats .items button{
+  background: #383C3F;
+}
+
+.see-all{
+  background: #DD763D;
+}

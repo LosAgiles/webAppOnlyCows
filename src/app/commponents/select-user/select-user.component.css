@@ -1,0 +1,68 @@
+
+.container{
+  display: grid;
+  place-items: center;
+  background: #F5EEDC;
+  height: 100vh;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.logo img{
+ width: 160px;
+  margin-bottom: 10px;
+}
+.logo label{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.logo label span{
+  color: #CF411A;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.selectUser{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+  width: 80%;
+}
+.user{
+  width: 300px;
+  overflow: hidden;
+  margin: 0 10px;
+  background: white;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  transition: 0.5s;
+}
+.user img{
+  width: 200px;
+  height: 200px;
+}
+.user h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.user:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.rancher img{
+
+
+}
+.zootechnician img{
+
+}
